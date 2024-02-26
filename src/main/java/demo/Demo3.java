@@ -9,14 +9,15 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-public class Demo2 extends HttpServlet {
+public class Demo3 extends HttpServlet {
+	
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+
 		response.setContentType("text/html");
 		PrintWriter out=response.getWriter();
 		
-		out.println("Servlet Demo 2 Executed");
+		out.println("Servlet Demo 3 Executed");
 	}
 
 }
