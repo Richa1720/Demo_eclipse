@@ -16,7 +16,7 @@ public class Demo2 extends HttpServlet {
 		response.setContentType("text/html");
 		PrintWriter out=response.getWriter();
 		
-		out.println("Servlet Demo Excuted");
+		out.println("Servlet Demo 2 Excuted");
 	}
 
 }
